@@ -12,7 +12,10 @@ E(x_n) = (1 + P(x_0)E(x_0) + ... + P(x_n-1)E(x_n-1)) / (1 - P(x_n))
 P(x_m) = (m-2)!(m^2 - 3m + 3)(n-m+1)/n!
 
 """
+import array as ar
 from pylab import *
+
+ar.array()
 def fac(n): 
     return prod(range(1,n+1))
 
